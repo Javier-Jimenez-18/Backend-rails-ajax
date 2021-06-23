@@ -1,13 +1,39 @@
 <h1>AJAX</h1>
-<p>Find me in app/views/ajax/home.html.erb</p>
+<!-- <p>Find me in app/views/ajax/home.html.erb</p> -->
 <div id="rest-ops">
 <button id="list-users" type="button">List users</button><br>
-<label>username</label><input id="user-username"><label>password</label>
-<input id="user-password"><button id="create-user" type="button">Create user</button><br>
-<label>user_id</label><input id="user-id" type="number"><label>username</label>
-<input id="user-username1"><label>password</label>
-<input id="user-password1"><button id="update-user" type="button">Update user</button><br>
+
+<label>username</label><input id="user-username">
+<label>password</label><input id="user-password">
+<button id="create-user" type="button">Create user</button><br>
+
+<label>user_id</label><input id="user-id" type="number">
+<label>username</label><input id="user-username1">
+<label>password</label><input id="user-password1">
+<button id="update-user" type="button">Update user</button><br>
+
+<label>user_id</label><input id="user-id1" type="number">
+<button id="delete-user" type="button">Delete user</button><br>
+
+<label>user_id</label><input id="user-id2" type="number">
+<button id="list-facts" type="button">List facts</button><br>
+
+<label>user_id</label><input id="user-id3" type="number">
+<label>fact</label><input id="fact-text">
+<label>likes</label><input id="fact-likes" type="number">
+<button id="create-fact" type="button">Create fact</button><br>
+
+<label>user_id</label><input id="user-id4" type="number">
+<label>fact_id</label><input id="fact-id" type="number">
+<label>fact</label><input id="fact-text1">
+<label>likes</label><input id="fact-likes1" type="number">
+<button id="update-fact" type="button">Update fact</button><br>
+
+<label>user_id</label><input id="user-id5" type="number">
+<label>fact_id</label><input id="fact-id1" type="number">
+<button id="delete-fact" type="button">Delete fact</button><br>
 </div>
+
 <div id="results-div"></div>
 <script>
 document.addEventListener('DOMContentLoaded', handle_ajax(event));
